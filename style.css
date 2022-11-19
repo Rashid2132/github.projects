@@ -1,0 +1,137 @@
+ *{
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+ }
+ body{
+  background-image: linear-gradient( rgb(126, 92, 126),rgb(126, 92, 126)),url(../image.jpg/web.jpg.webp);
+  background-repeat: no-repeat;
+  width: 100%;
+  background-size: cover;
+  height: 100%;
+  background-color: black;
+ }
+ nav {
+  background-color: black;
+  background-color: black;
+ }
+ nav ul{
+  margin-left: 1140px;
+  margin-top: 0px;
+ }
+ nav ul li{
+  display: inline-block;
+  margin-left:20px ;
+  margin-top: 20px;
+  
+ }
+ nav ul li a{
+  text-decoration: none;
+  list-style: none;
+  color: white;
+  
+
+ }
+ nav ul li a:hover{
+  color: aqua;
+  transition: all 0.5s;
+ }
+
+ nav ul li a button{
+  color: white ;
+  background-color: orangered;
+  padding: 5px 15px;
+  border: none;
+  border-radius: 10px;
+ }
+ nav ul li a button:hover{
+  background-color: rgb(228, 43, 19);
+  transition: all 0.5s;
+ }
+ .logo{
+  display: flex;
+  background-color: black;
+  color: white;
+  position: relative;
+
+  cursor: pointer;
+  
+ }
+ .logo h1{
+  
+  
+  position: absolute;
+  left: 30px;
+  top: 30px;
+  background-color: black;
+  border: 1px solid;
+
+
+ }
+ .logo h2{
+  position: absolute;
+
+  left: 130px;
+  top: 30px;
+  background-color: orangered;
+  padding: 6px;
+ }
+ .heading{
+  background-color: black;
+  color: white;
+  position: relative;
+  
+ }
+ .heading h1{
+  position: absolute;
+  left: 600px;
+  top: 300px;
+  color: orangered;
+  font-family: sans-serif;
+
+  font-weight: 1000px;
+ }
+ .heading p{
+  position: absolute;
+
+  left: 600px;
+  top: 360px;
+  color: white;
+  font-family: sans-serif;
+ }
+ .button{
+  background-color: black;
+  position: relative;
+ }
+ .button .button-1{
+  position: absolute;
+  left: 600px;
+  top: 400px;
+  padding: 10px 15px;
+  color: white;
+  background: transparent;
+  border: 1px solid orangered;
+  border-radius: 15px;
+ }
+ .button .button-2{
+  position: absolute;
+  left: 800px;
+  top: 400px;
+  padding: 10px 15px;
+  background: transparent;
+  border-radius: 15px;
+  border: 1px solid orangered;
+  color: white;
+  
+ }
+ .button .button-1:hover{
+  background-color: orangered;
+  transition: all 1s;
+
+ }
+ .button .button-2:hover{
+  background-color: orangered;
+  transition: all 1s;
+ }
+
+
